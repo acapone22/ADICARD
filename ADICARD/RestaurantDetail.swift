@@ -8,10 +8,14 @@
 import SwiftUI
 
 struct RestaurantDetailView: View {
+    
     @State private var comment: String = ""
-    let RestaurantDetail: Location
+    var RestaurantDetail: Location
+    
     var body: some View {
+        
         ScrollView{
+            
             VStack (alignment: .leading, content: {
                 Image("\(RestaurantDetail.image)")
                     .resizable()
@@ -31,7 +35,7 @@ struct RestaurantDetailView: View {
                 Text("Website: \(RestaurantDetail.website)")
                     .padding(.leading)
                 
-              }
+            }
            )
         }
     }

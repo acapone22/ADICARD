@@ -18,10 +18,10 @@ struct MainView: View {
             .tabItem{
                    Label("Wallet", systemImage: "creditcard.fill")
                }
-  //          ListView()
-  //              .tabItem{
-  //                  Label("List", systemImage: "list.bullet.rectangle.portrait.fill")
-  //              }
+            ListView()
+                .tabItem{
+                   Label("List", systemImage: "list.bullet.rectangle.portrait.fill")
+              }
         }
     }
 }
