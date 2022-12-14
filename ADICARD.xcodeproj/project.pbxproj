@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		DC1CE8B429473E61008FF32A /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = DC1CE8B329473E61008FF32A /* locations.json */; };
-		DC1CE8B62947405C008FF32A /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1CE8B52947405C008FF32A /* WalletView.swift */; };
 		DC1CE8B92947408A008FF32A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1CE8B82947408A008FF32A /* CardView.swift */; };
 		DC1CE8BD2947471B008FF32A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1CE8BC2947471B008FF32A /* MainView.swift */; };
 		DC1CE8BF29474AFC008FF32A /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1CE8BE29474AFC008FF32A /* ListView.swift */; };
 		DC1CE8C129474B3F008FF32A /* RestaurantDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1CE8C029474B3F008FF32A /* RestaurantDetail.swift */; };
+		DC2C3DB42949BD1E003436A6 /* Walletview.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2C3DB32949BD1E003436A6 /* Walletview.swift */; };
+		DC2C3DB62949BD84003436A6 /* Transizioniview.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2C3DB52949BD84003436A6 /* Transizioniview.swift */; };
+		DC2C3DB82949BDAA003436A6 /* cartatr.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2C3DB72949BDAA003436A6 /* cartatr.swift */; };
+		DC2C3DBA2949BE06003436A6 /* bianca.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2C3DB92949BE06003436A6 /* bianca.swift */; };
 		DC93A1BF293F3EBD00F73159 /* ADICARDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC93A1BE293F3EBD00F73159 /* ADICARDApp.swift */; };
 		DC93A1C1293F3EBD00F73159 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC93A1C0293F3EBD00F73159 /* ContentView.swift */; };
 		DC93A1C3293F3EBD00F73159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC93A1C2293F3EBD00F73159 /* Assets.xcassets */; };
@@ -41,11 +44,14 @@
 
 /* Begin PBXFileReference section */
 		DC1CE8B329473E61008FF32A /* locations.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
-		DC1CE8B52947405C008FF32A /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
 		DC1CE8B82947408A008FF32A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		DC1CE8BC2947471B008FF32A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		DC1CE8BE29474AFC008FF32A /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		DC1CE8C029474B3F008FF32A /* RestaurantDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetail.swift; sourceTree = "<group>"; };
+		DC2C3DB32949BD1E003436A6 /* Walletview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Walletview.swift; sourceTree = "<group>"; };
+		DC2C3DB52949BD84003436A6 /* Transizioniview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transizioniview.swift; sourceTree = "<group>"; };
+		DC2C3DB72949BDAA003436A6 /* cartatr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cartatr.swift; sourceTree = "<group>"; };
+		DC2C3DB92949BE06003436A6 /* bianca.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bianca.swift; sourceTree = "<group>"; };
 		DC93A1BB293F3EBD00F73159 /* ADICARD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADICARD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC93A1BE293F3EBD00F73159 /* ADICARDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADICARDApp.swift; sourceTree = "<group>"; };
 		DC93A1C0293F3EBD00F73159 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -108,8 +114,11 @@
 			children = (
 				DC93A1BE293F3EBD00F73159 /* ADICARDApp.swift */,
 				DC93A1C0293F3EBD00F73159 /* ContentView.swift */,
-				DC1CE8B52947405C008FF32A /* WalletView.swift */,
+				DC2C3DB32949BD1E003436A6 /* Walletview.swift */,
 				DC1CE8BC2947471B008FF32A /* MainView.swift */,
+				DC2C3DB52949BD84003436A6 /* Transizioniview.swift */,
+				DC2C3DB92949BE06003436A6 /* bianca.swift */,
+				DC2C3DB72949BDAA003436A6 /* cartatr.swift */,
 				DC1CE8C029474B3F008FF32A /* RestaurantDetail.swift */,
 				DC1CE8BE29474AFC008FF32A /* ListView.swift */,
 				DC1CE8B82947408A008FF32A /* CardView.swift */,
@@ -276,13 +285,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC2C3DB82949BDAA003436A6 /* cartatr.swift in Sources */,
 				DC93A1C1293F3EBD00F73159 /* ContentView.swift in Sources */,
 				DC1CE8C129474B3F008FF32A /* RestaurantDetail.swift in Sources */,
 				DC93A1BF293F3EBD00F73159 /* ADICARDApp.swift in Sources */,
 				DC1CE8BF29474AFC008FF32A /* ListView.swift in Sources */,
+				DC2C3DBA2949BE06003436A6 /* bianca.swift in Sources */,
+				DC2C3DB42949BD1E003436A6 /* Walletview.swift in Sources */,
+				DC2C3DB62949BD84003436A6 /* Transizioniview.swift in Sources */,
 				DC1CE8B92947408A008FF32A /* CardView.swift in Sources */,
 				DC1CE8BD2947471B008FF32A /* MainView.swift in Sources */,
-				DC1CE8B62947405C008FF32A /* WalletView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +453,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ADICARD/Preview Content\"";
+				DEVELOPMENT_TEAM = GZLQFRBL5J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -448,12 +461,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = gy.ADICARD;
+				PRODUCT_BUNDLE_IDENTIFIER = "alberto-capone";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -469,6 +483,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ADICARD/Preview Content\"";
+				DEVELOPMENT_TEAM = GZLQFRBL5J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -476,12 +491,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = gy.ADICARD;
+				PRODUCT_BUNDLE_IDENTIFIER = "alberto-capone";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

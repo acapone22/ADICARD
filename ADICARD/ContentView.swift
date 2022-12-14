@@ -11,10 +11,12 @@ import SwiftUI
 
 struct ContentView: View {
     
-@State private var userTrackingMode: MapUserTrackingMode = .follow
-  @State private var locations: [Location] = []
 
-  @State private var coordinateRegion = MKCoordinateRegion(
+    
+    @State private var userTrackingMode: MapUserTrackingMode = .follow
+    @State private var locations: [Location] = []
+
+    @State private var coordinateRegion = MKCoordinateRegion(
     center: CLLocationCoordinate2D(latitude: 40.863, longitude: 14.2767),
     span: MKCoordinateSpan(latitudeDelta: 1, longitudeDelta: 1.2)
   )
@@ -40,9 +42,8 @@ struct ContentView: View {
                       longitude: location.longitude
                     )
                   ) {
-                      NavigationLink{
-                          
-                      }label: {
+                      
+                      NavigationLink(destination: RestaurantDetailView(RestaurantDetail: location)) {
                           if location.category == "pizzeria"{
                               VStack(spacing: 0) {
                                   Text("🍕")
@@ -74,10 +75,14 @@ struct ContentView: View {
         }
           .onAppear(perform: readFile)
          
+         NavigationLink(destination: Text("")) {
+             
+         }
+         
       }
   }
 
-  private func readFile() {
+    func readFile() {
     if let url = Bundle.main.url(forResource: "locations", withExtension: "json"),
        let data = try? Data(contentsOf: url) {
       let decoder = JSONDecoder()
@@ -86,13 +91,17 @@ struct ContentView: View {
       }
     }
   }
+    
+    
 }
 
-struct JSONData: Decodable {
+
+
+struct JSONData: Codable {
   let locations: [Location]
 }
 
-struct Location: Decodable, Identifiable {
+struct Location: Codable, Identifiable {
     let id: Int
     let name: String
     let address: String
